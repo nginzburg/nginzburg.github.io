@@ -1,50 +1,101 @@
-#myname
-  {
-    text-transform:uppercase;
-    font-size:30pt;
-    background-color: lightblue
-  }
-
 a
   {
-    text-decoration:none;
-    font-size:26pt;
-    text-transform:lowercase;
-    color:black;
+    padding: 15px;
+    font-size: 20pt;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:lightgray;
   }
 
 a:hover
-{
-  text-transform:uppercase;
-  font-weight:bold;
-  color: brown;
-}
-
-  b {text-tranform:uppercase;}
-  body {text-align:center;}
-  h1,h3,p {text-align:center;}
-  hr {width:40%;}
-  img {width:30%}
-  li#mainli {margin-left:450px;}
-
-  #hoverbox
-    {
-      background-color:lightyellow;
-      display:none;
-      margin-left: 200px;
-      margin-right: 200px;
-      margin-top:-30px;
-      padding:60px;
-    }
+  {
+    text-decoration: line-through;
+    color:gold;
+  }
 
 
-#myname:hover
-{
-  color:white;
-  font-style: italic;
-}
+body
+  {
+    background-color: lightblue;
+  }
 
-  #myname:hover + #hoverbox, #hoverbox:hover
+h3
+  {
+    color:blue;
+    text-decoration: underline;
+  }
+
+#mypic
+  {
+    width: 380px;
+    position: fixed;
+    margin-left: 100px;
+    margin-top: 10px;
+    border-style:groove;
+    border-width: 25px;
+  }
+
+
+#nameheader
+  {
+    text-align:center;
+    z-index:1;
+    width: 300px;
+    background-color: cornflowerblue;
+    font-size:24pt;
+    font-weight: bold;
+    font-family: Arial;
+    text-transform: uppercase;
+    padding:5px;
+    position: fixed;
+    margin-left: 160px;
+    margin-top: 440px;
+  }
+
+#nameheader:hover + p, p:hover
   {
     display:block;
+  }
+
+
+
+div
+  {
+    position: relative;
+    display:block;
+    text-align: center;
+    margin-top:90px;
+    margin-left:650px;
+    padding-bottom: 60px;
+    padding-top: 5px;
+    width:50%;
+    background-color:white;
+    border-style: double;
+    border-width: 10px;
+    border-color: cornflowerblue;
+  }
+
+div.imgs
+  {
+    margin-left:650px;
+  }
+
+
+li
+  {
+    list-style-type:none;
+    margin-right:40px;
+  }
+
+p
+  {
+    display:none;
+    text-align:center;
+    position:fixed;
+    background-color:darkblue;
+    padding:20px;
+    padding-top:75px;
+    margin-left: 100px;
+    margin-top:440px;
+    width:390px;
   }
