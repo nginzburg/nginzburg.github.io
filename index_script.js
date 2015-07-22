@@ -1,7 +1,7 @@
 $("#nameheader").hover(function(){
-  $("p").scrollDown(2000);
+  $("p").fadeIn(2000);
 
 },function(){
-  $("p").scrollUp(2000);}
+  $("p").fadeOut(2000);}
 
 );
