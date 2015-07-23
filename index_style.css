@@ -16,13 +16,23 @@ a:hover
 
 body
   {
-    background: url("http://wonderworlds.org/images/snow/snow-falling-animated.gif");
+    background-color:lightblue;
   }
 
 h3
   {
     color:blue;
     text-decoration: underline;
+  }
+
+#moustache
+  {
+    width:100px;
+    position:fixed;
+    margin-top:-100px;
+    margin-left: -10px;
+
+
   }
 
 #mypic
@@ -74,6 +84,7 @@ div
     border-width: 10px;
     border-color: cornflowerblue;
   }
+
 
 div.imgs
   {
