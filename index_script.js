@@ -1,8 +1,14 @@
-// $(function(){
-//
-//   $("#nameheader").hover(function(){
-//     $("p").fadeIn(1000);
-//     $("p").fadeOut(1000);
-//
-//   });
-// });
+$(function(){
+
+  $("#nameheader").hover(function(){
+    $(this).fadeToggle(1000);
+  });
+
+$("#mypic").click(function(){
+  $("<div><h3>Temporary Header</h3>Temporary Section</div><br />").appendTo("body");
+  });
+
+
+
+
+});
