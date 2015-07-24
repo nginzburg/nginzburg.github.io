@@ -25,7 +25,7 @@ h3
     text-decoration: underline;
   }
 
-#bioPic, #intPic, #imgsPic
+#bioPic, #intPic, #imgsPic, #langPic, .schoolPics 
   {
     display:none;
   }
@@ -71,8 +71,6 @@ h3
   {
     display:block;
   }
-
-
 
 div
   {

@@ -64,5 +64,39 @@ $("#cssipic").hover(function(){
 });
 
 //
+//
+
+$("#school").click(function(){
+  $(".schoolPics").slideDown(2000);
+});
+
+$("#school").dblclick(function(){
+  $(".schoolPics").slideUp(1000);
+});
+
+$("#school").hover(function(){
+  $("#school").text("Do people even read these?");
+},function(){
+  $("#school").text("School");
+});
+
+//
+//
+
+$("#lang").click(function(){
+  $("#langPic").slideDown(2000);
+});
+
+$("#lang").dblclick(function(){
+  $("#langPic").slideUp(1000);
+});
+
+$("#lang").hover(function(){
+  $("#lang").text("ASDJKL;");
+},function(){
+  $("#lang").text("Languages");
+});
+
+//
 
 });
