@@ -5,7 +5,7 @@ $("#nameheader").hover(function(){
   });
 
 $("#moustache").click(function(){
-  $("<div>Temporary Header</h3>Temporary Section</div><br />").appendTo("body");
+  $("<div><h3>Temporary Header</h3>Temporary Section</div><br />").appendTo("body");
   });
 
 $("#moustache").hover(function(){
