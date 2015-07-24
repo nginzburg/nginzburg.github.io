@@ -25,6 +25,11 @@ h3
     text-decoration: underline;
   }
 
+#bioPic, #intPic, #imgsPic
+  {
+    display:none;
+  }
+
 #moustache
   {
     width:100px;
@@ -35,7 +40,7 @@ h3
 
   }
 
-#mypic
+#mainpic
   {
     width: 380px;
     position: fixed;
